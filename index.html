@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>chatApp</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<h1>
+     <button id="login">Login</button>
+     <button id="logout" class="hidden">Logout</button>
+     Firebase Chat
+ </h1>
+
+
+ <ul id="messages" class="hidden"></ul>
+ <form autocomplete="off" class="hidden">
+     <input type="text" id="message" placeholder="your message...">
+ </form>
+
+
+ <script src="https://www.gstatic.com/firebasejs/5.7.0/firebase-app.js"></script>
+ <script src="https://www.gstatic.com/firebasejs/5.5.2/firebase-firestore.js"></script>
+ <script src="https://www.gstatic.com/firebasejs/5.7.0/firebase-auth.js"></script>
+ <script src="js/main.js"></script>
+
+</body>
+</html>
